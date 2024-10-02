@@ -1,4 +1,5 @@
-# NLPProject
-An AI integrated app in the health sector which uses Natural language processing techniques such as named entity recognition for extracting the medicine names and their descriptions from the text printed on the back of the medicine pamphlet. By using easyocr or pytessaract the text details present on the back are extracted.
-Training our dataset obtained from kaggle using spaCy library which uses default and custom inbuilt pipelines for training our model and implementing named entity recognition. 
-Deploying voice enabled AI chatbot for providing mental health support with the help of Alan AI.
+# Medicine Details Extraction using NER
+
+This AI-powered app revolutionizes the healthcare sector by using Natural Language Processing (NLP) to extract medicine names and their active ingredients (salts) from medicine pamphlets. It employs Named Entity Recognition (NER) to identify and extract critical details from the printed text. Leveraging tools like EasyOCR or Pytesseract, the app extracts text from medicine pamphlets and uses a custom NER parser to format the data for training.
+
+The app is built with a custom-trained model using the spaCy library, which combines default and custom pipelines to optimize NER performance. Additionally, it integrates a voice-enabled AI chatbot for mental health support, powered by Alan AI, ensuring a comprehensive approach to healthcare.
